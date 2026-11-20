@@ -1,1 +1,2 @@
-babel==2.9.0
+# No runtime dependencies. babel was removed: nothing in this service imports it,
+# and the pinned 2.9.0 carried CVE-2021-42771 (PYSEC-2021-421).
